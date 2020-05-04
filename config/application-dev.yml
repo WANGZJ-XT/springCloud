@@ -7,3 +7,10 @@ spring：
     hikari:
       minimum-idle: 2
       maximum-pool-size: 5
+      
+spring.datasource.driver-class-name: oracle.jdbc.OracleDriver
+spring.datasource.url: jdbc:oracle:thin:@192.168.0.124:1521:x3db2007
+spring.datasource.username: HTTDBA
+spring.datasource.password: HTTGROUP
+spring.datasource.hikari.minimum-idle: 2
+spring.datasource.hikari.maximum-pool-size: 5
