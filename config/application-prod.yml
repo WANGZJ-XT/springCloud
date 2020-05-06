@@ -1,4 +1,5 @@
-from rr
+from: rr
+
 oracle:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
